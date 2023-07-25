@@ -29,4 +29,4 @@ let svgns = "http://www.w3.org/2000/svg";
  star.setAttributeNS(null, 'style', 'fill: while;' );
 #+end_src
 ** Imagen
-[https://i.imgur.com/PildrJK.png]
+[[https://i.imgur.com/PildrJK.png]]
