@@ -1,0 +1,32 @@
+* Texto de Barbie
+Esto es un testo de Barbie con animación.
+** Hay 2 cosas que aprendí con este ejemplo:
+El primero y más sencillo es
+** transform origin
+La propiedad CSS transform-origin establece el origen de las transformaciones de un elemento.
+transform-origin es una propidad de css que cambia el origen de un elemento.
+
+Yo use transform-origin para colocar en el centro el origen del elemento <circle>.
+
+#+begin_src css
+circle {
+    fill: white;
+    r: 0.35px;
+    transform-origin: center;
+#+end_src
+
+La otra cosa que aprendí fue insertar svg desde javascript.
+#+begin_src css
+let svgns = "http://www.w3.org/2000/svg";
+ star = document.createElementNS(svgns,'circle');
+/* position */
+ star.setAttributeNS(null, 'cx', positionX);
+ star.setAttributeNS(null, 'cy', positionY);
+
+    /* radio  */
+ star.setAttributeNS(null, 'r', 0.1);
+ /* background color */
+ star.setAttributeNS(null, 'style', 'fill: while;' );
+#+end_src
+** Imagen
+[https://i.imgur.com/PildrJK.png]
